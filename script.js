@@ -22,6 +22,10 @@ function changBGcolor(event){
         body.style.backgroundColor='green'
     }
 }
+//TEXK2C
+function redirectToGoogle(){
+    window.location.assign("https://google.com")
+}
 
 
 
