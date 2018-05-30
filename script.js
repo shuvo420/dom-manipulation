@@ -12,6 +12,16 @@ function addText2(){
 }
 var textBtn =document.getElementById('textBtn2a')
 textBtn.addEventListener('click',addText2)
+//Task 2 b
+function changBGcolor(event){
+    var body =document.getElementsByTagName('body')[0]
+    if(event.target.innerText =="Red"){
+        body.style.backgroundColor='red'
+    }
+    if(event.target.innerText =="Green"){
+        body.style.backgroundColor='green'
+    }
+}
 
 
 
