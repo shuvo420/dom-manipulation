@@ -29,8 +29,13 @@ function redirectToGoogle(){
 
 
 
-/* Task 4 using jQuery */
+/* Task 4a using jQuery */
 $('#addText4').click(function(event){
     var paragraph =$('<p>').text("hello word");
     $('#task4a').append(paragraph);
 });
+/* Task 4b using jQuery */
+function changBG(event){
+    var color = event.target.innerText.toLowerCase();
+    $('body').css('background-Color',color);
+}
