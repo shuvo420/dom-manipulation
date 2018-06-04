@@ -37,5 +37,10 @@ $('#addText4').click(function(event){
 /* Task 4b using jQuery */
 function changBG(event){
     var color = event.target.innerText.toLowerCase();
-    $('body').css('background-Color',color);
+    $('body').css('background-Color', color);
 }
+/* Task 4c using jQuery */
+$('#sum').click(function(event){
+    var sum =Number($('#num1').val())+Number($('#num2').val())
+    $('answer').text(sum)
+})
